@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# AWS CDK CodePipeline
 
-This is a blank project for CDK development with TypeScript.
+Continuous integration and delivery (CI/CD) using CDK Pipelines
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

@@ -1,6 +1,7 @@
 {
   "name": "aws-cdk-codepipeline",
   "version": "1.0.0",
+  "description": "AWS CDK Codepipeline",
   "bin": {
     "cdk-codepipeline": "bin/cdk-codepipeline.js"
   },
@@ -10,6 +11,13 @@
     "test": "jest",
     "cdk": "cdk"
   },
+  "keywords": [
+    "aws",
+    "cdk",
+    "codepipeline"
+  ],
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "@types/node": "20.11.6",
