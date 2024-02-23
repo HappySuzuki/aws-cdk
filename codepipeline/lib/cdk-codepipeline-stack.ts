@@ -17,7 +17,13 @@ export class CdkCodepipelineStack extends cdk.Stack {
           "mohamedsamara/aws-cdk-codepipeline",
           "main"
         ),
-        commands: ["npm ci", "npm run build", "npx cdk synth"],
+        commands: [
+          "cd codepipeline",
+          "npm ci",
+          "npm run build",
+          "npx cdk synth",
+        ],
+        primaryOutputDirectory: "codepipeline/cdk.out",
       }),
     });
   }

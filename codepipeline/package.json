@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-codepipeline",
+  "name": "codepipeline",
   "version": "1.0.0",
   "description": "AWS CDK Codepipeline",
   "bin": {
